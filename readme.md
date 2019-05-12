@@ -21,7 +21,7 @@ Please find here a high-level overview of the equipment and software stacks, whi
 
 <hr>
 
-### Bosch Software Innovations Connected Building
+## Bosch Software Innovations Connected Building
 
 ![Connected Building](assets/cb_building_block.png)
 
@@ -48,7 +48,7 @@ For the invitation to the connected building services please send a message to s
 **Credentials Data ingest**
 To send data to the connected building a `system-id` and `token` is required. Ask the connected building for your credentials.
 
-#### Connected Building APIs
+### Connected Building APIs
 
 The APIs are based on common REST concepts. Authentication oAuth 2.0 `Client Credentials Grant Type` and `Authorization Code Grant Type` are supported to get a access token for the API.
 
@@ -58,16 +58,17 @@ REST API | Description | Swagger
 **Equipment State** | API to query the actual state of the equipment and the building equipment | [docs](https://eu-dev.bosch-connectedbuilding.com/documentation/swagger/swagger-ui.html?urls.primaryName=state-app)
 **Dashboard Management** | API to mange the resources for the dashboard (cockpit) e.g. heat-map or simple times series data. | [docs](https://eu-dev.bosch-connectedbuilding.com/documentation/swagger/swagger-ui.html?urls.primaryName=dashboard-app)
 
-#### Connected Building Starters :rocket: 
+### Connected Building Starters :rocket:
 
 Please find here a list of starter to get starters with the connected building services.
+
 Starter | Description | Link
 -- | -- | --
 **Equipment tracking starter** | Starter with examples how to ingest data via the REST API. Shows also how to assign a equipment to an existing space. |  <https://github.com/bcx19-buildings/equipment-tracking-starter>
 
 <hr>
 
-### HERE Navigation & Routing
+## HERE Navigation & Routing
 
 ![HERE Navigation & Routing](assets/here_building_block.png)
 
@@ -87,17 +88,17 @@ Starter | Description | Link
 **Credentials**
 Get your credentials by signing up for free at: <https://developer.here.com/events/bcx19_buildings>
 
-#### HERE Documentation
+### HERE Documentation
 
 Follow the documentation to include HERE maps in your application, see [HERE documentation](https://developer.here.com/documentation)
 
 Check out our hands-on blogs to get ideas and inspiration for use cases: <https://developer.here.com/blog/topic/hands-on>
 
+### HERE and Bosch IoT Suite
 
-#### HERE and Bosch IoT Suite
 See [HERE x Bosch IoT Things](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/documentation/here-x-things) documentation.
 
-#### HERE Starters :rocket:
+### HERE Starters :rocket:
 
 Please find here a list of starter to get starters with HERE venues.
 
@@ -108,7 +109,7 @@ Starter | Description | Link
 
 <hr>
 
-### Bosch Asset Tracing Solution
+## Bosch Asset Tracing Solution
 
 ![Bosch Asset Tracing Solution](assets/traci_building_block.png)
 
@@ -123,7 +124,7 @@ More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/
 
 <hr>
 
-### Bosch Power Tools RefineMysite & TrackMyTools
+## Bosch Power Tools RefineMysite & TrackMyTools
 
 ![RefineMysite & TrackMyTools](assets/pt_building_block.png)
 
@@ -133,13 +134,13 @@ More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/
 > - How to access the data?
 >   - REST APIs
 
-#### RefineMysite & TrackMyTools Documentation
+### RefineMysite & TrackMyTools Documentation
 
 TBD: Add link to RefineMysite & TrackMyTools documentation.
 
 <hr>
 
-### Bosch IoT Suite
+## Bosch IoT Suite
 
 ![Bosch IoT Suite](assets/iotsuite_building_block.png)
 
@@ -170,13 +171,13 @@ TBD: Add link to RefineMysite & TrackMyTools documentation.
 >      - Web-Socket
 >      - ...
 
-#### Bosch IoT Suite BCX Documentation
+### Bosch IoT Suite BCX Documentation
 
 To get access to devices and find a detailed documentation for the BCX see [Bosch IoT Suite Device Portal](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices).
 
 <hr>
 
-### Microsoft Azure
+## Microsoft Azure
 
 ![Microsoft Azure](assets/ms_building_block.png)
 
@@ -203,16 +204,17 @@ To get access to devices and find a detailed documentation for the BCX see [Bosc
 - Come to our Microsoft hack booth
 - We have already prepared some additional things, like using Azure Custom Vision for analyzing coffee cups on the tables and reminding the attendees to clean up :-)
 
-#### Microsoft Azure BCX Starters :rocket:
+### Microsoft Azure BCX Starters :rocket:
 
 Leverage our BCX Azure Starter-Kit!
+
 Starter | Description | Link
 -- | -- | --
 **BCX Azure Starter-Kit** | Starter kit includes BCX architecture documentation, automatic provisioning, first step tutorial, two sample apps and some ideas how you can use this. |  <https://aka.ms/bcx19>
 
 <hr>
 
-### Bosch Building Technologies InnoHub
+## Bosch Building Technologies InnoHub
 
 ![InnoHub](assets/innohub_building_block.png)
 
@@ -224,7 +226,7 @@ To use one of the cool InnoHub services add a post-it to the InnoHub planning bo
 
 <hr>
 
-### Bosch Building Technologies Cameras
+## Bosch Building Technologies Cameras
 
 ![Bosch Securities Cameras](assets/bt_camera_building_block.png)
 
@@ -244,14 +246,14 @@ To use one of the cool InnoHub services add a post-it to the InnoHub planning bo
 - Get autonomous triggered alarms / events 
 - Alarm email / messages
 
-#### Bosch Securities Cameras BCX Documentation
+### Bosch Securities Cameras BCX Documentation
 
 - <https://partner.ipp.boschsecurity.com/cloud/index.php/s/r1rpGHAQdEk6QTN>
 - <https://partner.ipp.boschsecurity.com/cloud/index.php/s/m1fI4g9k0xwBr46>
 
 <hr>
 
-### SAST
+## SAST
 
 ![SAST](assets/sast_building_block.png)
 
@@ -283,7 +285,7 @@ More information: https://developer.live.sastiot.com
 
 <hr>
 
-### Bosch Connected Devices and Solutions
+## Bosch Connected Devices and Solutions
 
 ![Bosch Connected Devices and Solutions](assets/xdk_building_block.png)
 
@@ -313,13 +315,13 @@ More information: https://developer.live.sastiot.com
 >   - Azure Event Hub
 >   - ...
 
-#### Documentation XDK Usage BCX
+### Documentation XDK Usage BCX
 
 To get access to devices and find a detailed documentation for the BCX see [Bosch IoT Suite Device Portal](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices).
 
 <hr>
 
-### Zumtobel Lighting and Controls
+## Zumtobel Lighting and Controls
 
 ![Zumtobel](assets/zumtobel_building_block.png)
 
@@ -331,13 +333,13 @@ To get access to devices and find a detailed documentation for the BCX see [Bosc
 >   - Azure Event Hub
 >   - REST APIs
 
-#### Documentation Zumtobel
+### Documentation Zumtobel
 
 For the REST API documentation see <https://cb-zumtobel-lms-command-app.azurewebsites.net/documentation/swagger/swagger-ui.html>
 
 <hr>
 
-### Bosch B/S/H/ Home Connect
+## Bosch B/S/H/ Home Connect
 
 ![Bosch B/S/H/ Home Connect](assets/homeconnect_building_block.png)
 
@@ -349,14 +351,14 @@ For the REST API documentation see <https://cb-zumtobel-lms-command-app.azureweb
 > - How to access the data?
 >   - Home connect
 
-#### Documentation BCX
+### Documentation BCX
 
 To get started, please create a developer account [here](https://developer.home-connect.com)
 
 
 <hr>
 
-### Bosch B/S/H/ PAI
+## Bosch B/S/H/ PAI
 
 ![Bosch B/S/H/ PAI](assets/pai_building_block.png)
 
@@ -364,7 +366,7 @@ PAI Projected interactive assistance for the smart kitchen
 
 <hr>
 
-### Bosch Common Gateway
+## Bosch Common Gateway
 
 ![Bosch Common Gateway](assets/common_gateway_building_block.png)
 
@@ -377,13 +379,13 @@ PAI Projected interactive assistance for the smart kitchen
 >   - Mobile Network Connection
 >   - Bosch IoT Cloud
 
-#### Documentation Bosch Common Gateway BCX
+### Documentation Bosch Common Gateway BCX
 
 Documentation Eclipse Mita: <https://www.eclipse.org/mita/>
 
 <hr>
 
-### Bosch IIOT Gateway
+## Bosch IIOT Gateway
 
 ![Bosch IIOT Gateway](assets/iiot_building_block.png)
 
@@ -391,7 +393,7 @@ Bosch IIOT Gateway with a OSGi based gateway software. Add your own logic in the
 
 <hr>
 
-### Bosch Thermo-technology EasyControl
+## Bosch Thermo-technology EasyControl
 
 ![Bosch Thermo-technology EasyControl](assets/tt_building_block.png)
 
@@ -403,14 +405,15 @@ Bosch IIOT Gateway with a OSGi based gateway software. Add your own logic in the
 >   - Bosch Developer Portal
 >   - Bosch Thermotechnology API
 
-#### Documentation EasyControl BCX
+### Documentation EasyControl BCX
 
 - EasyControl of Bosch - <https://www.bosch-easycontrol.com>
 - Bosch Thermotechnology API -  <https://developer.bosch.com>
 - Join our community - <https://community.developer.bosch.com>
 
-#### EasyControl Starters :rocket:
+### EasyControl Starters :rocket:
 
 Starter | Description | Link
 -- | -- | --
 **EasyControl Starter Kit** | One pager with all infos and links e.g. Postman collection |  <http://bit.ly/2Ynl867>
+
