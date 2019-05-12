@@ -50,6 +50,10 @@ For the invitation to the connected building services please send a message to s
 
 To send data to the connected building a `system-id` and `token` is required. Ask the connected building for your credentials.
 
+### Connected Building Dashboard
+
+BCX19 Dashboard: <https://eu.bosch-connectedbuilding.com/dashboard/auth/login?tenant=cb_bcx_2019>
+
 ### Connected Building APIs
 
 The APIs are based on common REST concepts. Authentication oAuth 2.0 `Client Credentials Grant Type` and `Authorization Code Grant Type` are supported to get a access token for the API.
