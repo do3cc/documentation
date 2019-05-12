@@ -1,9 +1,7 @@
-title: BCX19 \#3 Buildings
+title: BCX19 Buildings
 description: >- 
   This hack challenge comes with a wide range of hardware that connects to the Bosch Connected Building Services. 
   Join this hack challenge to change the way we live, work and use buildings!
 plugins:
   - jemoji
-include:
-  - readme.md
 theme: minima
