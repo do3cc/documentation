@@ -148,20 +148,12 @@ TBD: Add link to RefineMysite & TrackMyTools documentation.
 >   - XDK
 >      - Acceleration
 >      - Acoustics
->      - Light
->      - Humidity
->      - Magnetic Strength
->      - Barometric Pressure
->      - Rotation
->      - Temperature
+>      - ...
 >   - SensTag 
 >       - Humidity
 >       - Indoor Air Quality
 >       - Barometric Pressure
->       - Temperature
->       - Shock
->       - Tilt
->       - Occupancy
+>       - ...
 >   - Parking Sensor
 >       - Occupancy
 >   - ...
@@ -293,20 +285,12 @@ More information: https://developer.live.sastiot.com
 >   - XDK
 >      - Acceleration
 >      - Acoustics
->      - Light
->      - Humidity
->      - Magnetic Strength
->      - Barometric Pressure
->      - Rotation
->      - Temperature
+>      - ...
 >   - SensTag 
 >       - Humidity
 >       - Indoor Air Quality
 >       - Barometric Pressure
->       - Temperature
->       - Shock
->       - Tilt
->       - Occupancy
+>       - ...
 >   - ...
 > - How to access the data?
 >   - XDK firmware
