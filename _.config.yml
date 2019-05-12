@@ -1,8 +1,0 @@
-plugins:
-  - jekyll-relative-links
-  - jemoji
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - readme.md
