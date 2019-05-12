@@ -15,13 +15,13 @@ To use the developer portal or connected building the precondition is to have a 
 
 Please find here a high-level overview of the equipment and software stacks, which you might want to use in your hack. For each of this tools find bellow more details.
 
-![Setup](assets/bcx19_cb_overview.png)
+[![Setup](assets/bcx19_cb_overview.png)](https://bcx19-buildings.github.io/documentation/assets/bcx19_cb_overview.png)
 
 ## :blue_book: Connected Building
 
 Connected Building is a cloud based collection of services to implement use-cases for commercial buildings. The diagram below gives a overview of the solution architecture landscape and the services.
 
-[![Connected Building Overview](assets/connectedbuilding_overview.png)]([assets/connectedbuilding_overview.png](https://bcx19-buildings.github.io/documentation/assets/bcx19_cb_overview.png))
+![Connected Building Overview](assets/connectedbuilding_overview.png)
 
 **Credentials cockpit / REST API**
 If you want to use the Connected Building Services e.g. cockpit you require:
