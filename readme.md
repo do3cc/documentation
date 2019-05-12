@@ -19,34 +19,35 @@ Please find here a high-level overview of the equipment and software stacks, whi
 
 [![Setup](assets/bcx19_cb_overview.png)](https://bcx19-buildings.github.io/documentation/assets/bcx19_cb_overview.png)
 
-## :blue_book: Connected Building
+<hr>
 
-> :information_source: **Overview**
->
-> - Which data is available?
+## ![Connected Building Building Block](assets/cb_building_block.png)
+
+> - :information_source: Which data is available?
 >   - Sensor data
 >   - Equipment data
 >   - Building topology
-> - How to access the data?
+> - :gear: How to access the data?
 >   - REST APIs
 >   - Dashboard
 
-> Connected Building is a cloud based collection of services to implement use-cases for commercial buildings. The diagram below gives a overview of the solution architecture landscape and the services.
+Connected Building is a cloud based collection of services to implement use-cases for commercial buildings. The diagram below gives a overview of the solution architecture landscape and the services.
 
-> ![Connected Building Overview](assets/connectedbuilding_overview.png)
+![Connected Building Overview](assets/connectedbuilding_overview.png)
 
-> :pencil: **Credentials**
-> If you want to use the Connected Building REST API or the cockpit you require:
->
-> - [Bosch ID](https://myaccount.bosch.com/BeaPUssWeb/registration)
-> - Invitation connected building services.
->
-> For the invitation to the connected building services please send a message to slack channel: `#cb-invitation`.
->
-> **Data ingest**
-> To send data to the connected building a `system-id` and `token` is required. Ask the connected building for your credentials.
+**Credentials**
+If you want to use the Connected Building REST API or the cockpit you require:
+
+ - [Bosch ID](https://myaccount.bosch.com/BeaPUssWeb/registration)
+ - Invitation connected building services.
+
+For the invitation to the connected building services please send a message to slack channel: `#cb-invitation`.
+
+**Credentials Data ingest**
+To send data to the connected building a `system-id` and `token` is required. Ask the connected building for your credentials.
 
 ### Connected Building APIs
+
 The APIs are based on common REST concepts. Authentication oAuth 2.0 `Client Credentials Grant Type` and `Authorization Code Grant Type` are supported to get a access token for the API.
 
 REST API | Description | Swagger
@@ -55,45 +56,44 @@ REST API | Description | Swagger
 **Equipment State** | API to query the actual state of the equipment and the building equipment | [docs](https://eu-dev.bosch-connectedbuilding.com/documentation/swagger/swagger-ui.html?urls.primaryName=state-app)
 **Dashboard Management** | API to mange the resources for the dashboard (cockpit) e.g. heat-map or simple times series data. | [docs](https://eu-dev.bosch-connectedbuilding.com/documentation/swagger/swagger-ui.html?urls.primaryName=dashboard-app)
 
-### :rocket: Connected Building Starters
+### Connected Building Starters :rocket: 
 
 Please find here a list of starter to get starters with the connected building services.
 Starter | Description | Link
 -- | -- | --
 **Equipment tracking starter** | Starter with examples how to ingest data via the REST API. Shows also how to assign a equipment to an existing space. |  <https://github.com/bcx19-buildings/equipment-tracking-starter>
 
-## :blue_book: HERE Navigation & Routing
+<hr>
 
-> :information_source: **Overview**
->
-> - Which data is available?
+## ![HERE Navigation & Routing](assets/here_building_block.png)
+
+> - :information_source: Which data is available?
 >   - Mapped Venue with:
 >     - Floor Levels
 >     - Connectors
 >   - Beacons for positioning
 >   - Positioning API
 >   - Routing API
-> - How to access the data?
->   - REST API
+> - :gear: How to access the data?
+>   - REST APIs
 >   - JS API
 >   - Android SDK
 >   - iOS SDK
 
+**Credentials**
+Get your credentials by signing up for free at: <https://developer.here.com/events/bcx19_buildings>
 
-> :pencil: **Credentials**
-> Get your credentials by signing up for free at: <https://developer.here.com/events/bcx19_buildings>
+### HERE Documentation
+
+Follow the documentation to include HERE maps in your application, see [HERE documentation](https://developer.here.com/documentation)
+
+Check out our hands-on blogs to get ideas and inspiration for use cases: <https://developer.here.com/blog/topic/hands-on>
 
 
-> **Documentation**
-> Follow the documentation to include HERE maps in your application.
-> see [documentation](https://developer.here.com/documentation)
+### HERE and Bosch IoT Suite
+See [HERE x Bosch IoT Things](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/documentation/here-x-things) documentation.
 
-
-> **HERE and Bosch IoT Suite**
-> see [HERE x Bosch IoT Things
-](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/documentation/here-x-things)
-
-### :rocket: HERE Starters
+### HERE Starters :rocket:
 
 Please find here a list of starter to get starters with HERE venues.
 
@@ -102,60 +102,284 @@ Starter | Description | Link
 **Android SDK examples** | For Android, use the git repository, download a project and start exploring. |  <https://github.com/heremaps/here-android-sdk-examples/tree/master/3d-venues-and-indoor-routing>
 **Angular Floor Plan Viewer** | Simple Angualr web-app to display the `Kühlhaus` venue as a floor plan. |  <https://github.com/bcx19-buildings/here-map-angular-starter-kit>
 
-## :blue_book: Bosch Asset Tracing Solution
+<hr>
 
-TBD
+## ![Bosch Asset Tracing Solution](assets/traci_building_block.png)
 
-## :blue_book: RefineMysite & TrackMyTools
+> - :information_source: Which data is available?
+>   - Asset Location
+> - :gear: How to access the data?
+>   - REST APIs
 
-TBD
+### Bosch Asset Tracing Documentation
 
-## :blue_book: Bosch IoT Suite
+More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/en/products-and-services/mobility-services/asset-tracing-solution).
 
-TBD
+<hr>
 
-http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices
+## ![RefineMysite & TrackMyTools](assets/pt_building_block.png)
 
-## :blue_book: Microsoft Azure
+> - :information_source: Which data is available?
+>   - Position of power tools
+>   - Field Data Connectivity
+> - :gear: How to access the data?
+>   - REST APIs
 
-TBD
+### RefineMysite & TrackMyTools Documentation
 
-## :blue_book: InnoHub
+TBD: Add link to RefineMysite & TrackMyTools documentation.
 
-TBD
+<hr>
 
-## :blue_book: Bosch Securities Cameras
+## ![Bosch IoT Suite](assets/iotsuite_building_block.png)
 
-TBD
+> - :information_source: Which data is available?
+>   - XDK
+>      - Acceleration
+>      - Acoustics
+>      - Light
+>      - Humidity
+>      - Magnetic Strength
+>      - Barometric Pressure
+>      - Rotation
+>      - Temperature
+>   - SensTag 
+>       - Humidity
+>       - Indoor Air Quality
+>       - Barometric Pressure
+>       - Temperature
+>       - Shock
+>       - Tilt
+>       - Occupancy
+>   - Parking Sensor
+>       - Occupancy
+>   - ...
+> - :gear: How to access the data?
+>   - Bosch IoT Things
+>      - REST APIs
+>      - Web-Socket
+>      - ...
 
-## :blue_book: SAST
+## Bosch IoT Suite BCX Documentation
 
-TBD
+To get access to devices and find a detailed documentation for the BCX see [Bosch IoT Suite Device Portal](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices).
 
-## :blue_book: Bosch Connected Devices and Solutions
+<hr>
 
-TBD
+## ![Microsoft Azure](assets/ms_building_block.png)
 
-## :blue_book: Zumtobel 
+> - :information_source: Which data is available?
+>   - Topology Operations
+>   - Sensor Changes
+>   - Space Changes
+>   - User-defined function notifications
+>   - Device Messages: all raw telemetry from devices
+> - :gear: How to access the data?
+>   - Azure Event Hubs
+>   - Azure Time Series Insights
+>   - Azure Functions
+>   - Azure Digital Twins
+>   - REST APIs
 
-TBD
+**How can I get access to Azure?**
+- Come to our Microsoft hack booth and get an Azure voucher with credit for this hackathon
 
-## :blue_book: Bosch B/S/H/ Home Connect
+**How can I get help with Azure / SDKs / Architecture …?**
+- Come to our Microsoft hack booth, we all can code, hack, show, visualize and HELP!!!
 
-TBD
+**But, wait, I need… Machine Learning / AI / Kubernetes / the power of cloud?**
+- Come to our Microsoft hack booth
+- We have already prepared some additional things, like using Azure Custom Vision for analyzing coffee cups on the tables and reminding the attendees to clean up :-)
 
-## :blue_book: Bosch B/S/H/ PAI
+### Microsoft Azure BCX Starters :rocket:
 
-TBD
+Leverage our BCX Azure Starter-Kit!
+Starter | Description | Link
+-- | -- | --
+**BCX Azure Starter-Kit** | Starter kit includes BCX architecture documentation, automatic provisioning, first step tutorial, two sample apps and some ideas how you can use this. |  <https://aka.ms/bcx19>
 
-## :blue_book: Bosch Common Gateway
+<hr>
 
-TBD
+## ![InnoHub](assets/innohub_building_block.png)
 
-## :blue_book: Bosch IIOT Gateway
+> - :information_source: InnoHub provides this Services
+>   - IoT Consulting
+>   - UX Consulting
 
-TBD
+To use one of the cool InnoHub services add a post-it to the InnoHub planning board in `floor 4`.
 
-## :blue_book: Bosch Thermo-technology EasyControl
+<hr>
 
-TBD
+## ![Bosch Securities Cameras](assets/bt_camera_building_block.png)
+
+> - :information_source: Which data is available?
+>   - Optical sensor
+>   - Events (e.g. People Count, Alarms)
+> - :gear: How to access the data?
+>   - Webbrowser (recommended IE with ActiveX enabled)
+>   - BoschVideoSDK
+>   - RTSP client (e.g. VLC player)
+
+**How to interact with the device or the system?**
+
+- Get Videostream (RTSP, RTP)
+- Interfaces HTTP / RCPP / CGI / ONVIF
+- Set up IVA tasks (ActiveX)
+- Get autonomous triggered alarms / events 
+- Alarm email / messages
+
+### Bosch Securities Cameras BCX Documentation
+
+- <https://partner.ipp.boschsecurity.com/cloud/index.php/s/r1rpGHAQdEk6QTN>
+- <https://partner.ipp.boschsecurity.com/cloud/index.php/s/m1fI4g9k0xwBr46>
+
+<hr>
+
+
+## ![SAST](assets/sast_building_block.png)
+
+> - :information_source: Which data is available?
+>   - 4k / UHD images @ 30 fps
+>   - Example app with TensorFlow and OpenCV integration
+>   - Person’s pose data ready to use
+>   - Extend app to generate the data you need
+> - :gear: How to access the data?
+>   - REST APIs
+>   - RTSP Stream
+>   - Push data to cloud using REST APIs (e.g., Bosch IoT Suite)
+
+**How to interact with the device or the system?**
+
+- Write your own App using Android Studio and SAST APIs to process images and - generate the desired data
+- Interface App’s custom REST APIs 
+- Connect App to the cloud
+
+> :information_source: **Hint:** Ideally, form a team of persons knowing
+> - Android app development 
+> - Computer Vision (e.g., OpenCV, TensorFlow)
+> 
+> Note: Android Studio needs to be installed on your laptop
+
+### SAST Documentation
+
+More information: https://developer.live.sastiot.com
+
+<hr>
+
+## ![Bosch Connected Devices and Solutions](assets/xdk_building_block.png)
+
+> - :information_source: Which data is available?
+>   - XDK
+>      - Acceleration
+>      - Acoustics
+>      - Light
+>      - Humidity
+>      - Magnetic Strength
+>      - Barometric Pressure
+>      - Rotation
+>      - Temperature
+>   - SensTag 
+>       - Humidity
+>       - Indoor Air Quality
+>       - Barometric Pressure
+>       - Temperature
+>       - Shock
+>       - Tilt
+>       - Occupancy
+>   - ...
+> - :gear: How to access the data?
+>   - XDK firmware
+>   - Bosch IoT Suite
+>   - Connected Building
+>   - Azure Event Hub
+>   - ...
+
+### Documentation XDK Usage BCX
+
+To get access to devices and find a detailed documentation for the BCX see [Bosch IoT Suite Device Portal](http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices).
+
+<hr>
+
+## ![Zumtobel](assets/zumtobel_building_block.png)
+
+> - :information_source: Which data is available?
+>   - Desk occupancy
+>   - Air Quality: Temperature, VOC, CO2, Humidity, Noise
+> - :gear: How to access the data?
+>   - Connected Building
+>   - Azure Event Hub
+>   - REST APIs
+
+### Documentation Zumtobel
+
+For the REST API documentation see <https://cb-zumtobel-lms-command-app.azurewebsites.net/documentation/swagger/swagger-ui.html>
+
+<hr>
+
+## ![Bosch B/S/H/ Home Connect](assets/homeconnect_building_block.png)
+
+> - :information_source: Which data is available?
+>   - Oven
+>   - coffee machine
+>   - fridge,
+>   - dishwasher, ...
+> - :gear: How to access the data?
+>   -  Home connect REST APIs
+
+### Documentation BCX
+
+To get started, please create a developer account [here](https://developer.home-connect.com)
+
+
+<hr>
+
+## ![Bosch B/S/H/ PAI](assets/pai_building_block.png)
+
+PAI Projected interactive assistance for the smart kitchen
+
+<hr>
+
+## ![Bosch Common Gateway](assets/common_gateway_building_block.png)
+
+> - :information_source: Which data is available?
+>   - Accelerometer
+>   - Environmental: Humidity, Pressure, Temperature
+> - :gear: How to access the data?
+>   - C API: Eclipse Kiso
+>   - High Level language: Eclipse Mita
+>   - Mobile Network Connection
+>   - Bosch IoT Cloud
+
+### Documentation Bosch Common Gateway BCX
+
+Documentation Eclipse Mita: <https://www.eclipse.org/mita/>
+
+<hr>
+
+## ![Bosch IIOT Gateway](assets/iiot_building_block.png)
+
+Bosch IIOT Gateway with a OSGi based gateway software. Add your own logic in the fog layer as OSGi bundle.
+
+<hr>
+
+## ![Bosch Thermo-technology EasyControl](assets/tt_building_block.png)
+
+> - :information_source: Which data is available?
+>   - Room temperature
+>   - Room target temperature
+>   - User mode
+> - :gear: How to access the data?
+>   - Bosch Developer Portal
+>   - Bosch Thermotechnology API
+
+### Documentation EasyControl BCX
+
+- EasyControl of Bosch - <https://www.bosch-easycontrol.com>
+- Bosch Thermotechnology API -  <https://developer.bosch.com>
+- Join our community - <https://community.developer.bosch.com>
+
+### EasyControl Starters :rocket:
+
+Starter | Description | Link
+-- | -- | --
+**EasyControl Starter Kit** | One pager with all infos and links e.g. Postman collection |  <http://bit.ly/2Ynl867>
