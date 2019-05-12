@@ -21,7 +21,9 @@ Please find here a high-level overview of the equipment and software stacks, whi
 
 <hr>
 
-### ![Connected Building Building Block](assets/cb_building_block.png)
+### Bosch Software Innovations Connected Building
+
+![Connected Building](assets/cb_building_block.png)
 
 > - Which data is available?
 >   - Sensor data
@@ -65,7 +67,9 @@ Starter | Description | Link
 
 <hr>
 
-### ![HERE Navigation & Routing](assets/here_building_block.png)
+### HERE Navigation & Routing
+
+![HERE Navigation & Routing](assets/here_building_block.png)
 
 > - Which data is available?
 >   - Mapped Venue with:
@@ -104,7 +108,9 @@ Starter | Description | Link
 
 <hr>
 
-### ![Bosch Asset Tracing Solution](assets/traci_building_block.png)
+### Bosch Asset Tracing Solution
+
+![Bosch Asset Tracing Solution](assets/traci_building_block.png)
 
 > - Which data is available?
 >   - Asset Location
@@ -117,7 +123,9 @@ More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/
 
 <hr>
 
-### ![RefineMysite & TrackMyTools](assets/pt_building_block.png)
+### Bosch Power Tools RefineMysite & TrackMyTools
+
+![RefineMysite & TrackMyTools](assets/pt_building_block.png)
 
 > - Which data is available?
 >   - Position of power tools
@@ -131,7 +139,9 @@ TBD: Add link to RefineMysite & TrackMyTools documentation.
 
 <hr>
 
-### ![Bosch IoT Suite](assets/iotsuite_building_block.png)
+### Bosch IoT Suite
+
+![Bosch IoT Suite](assets/iotsuite_building_block.png)
 
 > - Which data is available?
 >   - XDK
@@ -166,7 +176,9 @@ To get access to devices and find a detailed documentation for the BCX see [Bosc
 
 <hr>
 
-### ![Microsoft Azure](assets/ms_building_block.png)
+### Microsoft Azure
+
+![Microsoft Azure](assets/ms_building_block.png)
 
 > - Which data is available?
 >   - Topology Operations
@@ -200,7 +212,9 @@ Starter | Description | Link
 
 <hr>
 
-### ![InnoHub](assets/innohub_building_block.png)
+### Bosch Building Technologies InnoHub
+
+![InnoHub](assets/innohub_building_block.png)
 
 > - InnoHub provides this Services
 >   - IoT Consulting
@@ -210,7 +224,9 @@ To use one of the cool InnoHub services add a post-it to the InnoHub planning bo
 
 <hr>
 
-### ![Bosch Securities Cameras](assets/bt_camera_building_block.png)
+### Bosch Building Technologies Cameras
+
+![Bosch Securities Cameras](assets/bt_camera_building_block.png)
 
 > - Which data is available?
 >   - Optical sensor
@@ -235,8 +251,9 @@ To use one of the cool InnoHub services add a post-it to the InnoHub planning bo
 
 <hr>
 
+### SAST
 
-### ![SAST](assets/sast_building_block.png)
+![SAST](assets/sast_building_block.png)
 
 > - Which data is available?
 >   - 4k / UHD images @ 30 fps
@@ -266,7 +283,9 @@ More information: https://developer.live.sastiot.com
 
 <hr>
 
-## ![Bosch Connected Devices and Solutions](assets/xdk_building_block.png)
+### Bosch Connected Devices and Solutions
+
+![Bosch Connected Devices and Solutions](assets/xdk_building_block.png)
 
 > - Which data is available?
 >   - XDK
@@ -300,7 +319,9 @@ To get access to devices and find a detailed documentation for the BCX see [Bosc
 
 <hr>
 
-### ![Zumtobel](assets/zumtobel_building_block.png)
+### Zumtobel Lighting and Controls
+
+![Zumtobel](assets/zumtobel_building_block.png)
 
 > - Which data is available?
 >   - Desk occupancy
@@ -316,7 +337,9 @@ For the REST API documentation see <https://cb-zumtobel-lms-command-app.azureweb
 
 <hr>
 
-### ![Bosch B/S/H/ Home Connect](assets/homeconnect_building_block.png)
+### Bosch B/S/H/ Home Connect
+
+![Bosch B/S/H/ Home Connect](assets/homeconnect_building_block.png)
 
 > - Which data is available?
 >   - Sensor data from: Oven,
@@ -333,13 +356,17 @@ To get started, please create a developer account [here](https://developer.home-
 
 <hr>
 
-### ![Bosch B/S/H/ PAI](assets/pai_building_block.png)
+### Bosch B/S/H/ PAI
+
+![Bosch B/S/H/ PAI](assets/pai_building_block.png)
 
 PAI Projected interactive assistance for the smart kitchen
 
 <hr>
 
-### ![Bosch Common Gateway](assets/common_gateway_building_block.png)
+### Bosch Common Gateway
+
+![Bosch Common Gateway](assets/common_gateway_building_block.png)
 
 > - Which data is available?
 >   - Accelerometer
@@ -356,13 +383,17 @@ Documentation Eclipse Mita: <https://www.eclipse.org/mita/>
 
 <hr>
 
-### ![Bosch IIOT Gateway](assets/iiot_building_block.png)
+### Bosch IIOT Gateway
+
+![Bosch IIOT Gateway](assets/iiot_building_block.png)
 
 Bosch IIOT Gateway with a OSGi based gateway software. Add your own logic in the fog layer as OSGi bundle.
 
 <hr>
 
-### ![Bosch Thermo-technology EasyControl](assets/tt_building_block.png)
+### Bosch Thermo-technology EasyControl
+
+![Bosch Thermo-technology EasyControl](assets/tt_building_block.png)
 
 > - Which data is available?
 >   - Room temperature
