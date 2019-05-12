@@ -17,7 +17,7 @@ Please find here a high-level overview of the equipment and software stacks, whi
 
 ![Setup](assets/bcx19_cb_overview.png)
 
-### :blue_book: Connected Building
+## :blue_book: Connected Building
 
 Connected Building is a cloud based collection of services to implement use-cases for commercial buildings. The diagram below gives a overview of the solution architecture landscape and the services.
 
@@ -49,64 +49,64 @@ Starter | Description | Link
 -- | -- | --
 **Equipment tracking starter** | Starter with examples how to ingest data via the REST API. Shows also how to assign a equipment to an existing space. |  https://github.com/bcx19-buildings/equipment-tracking-starter
 
-### HERE Navigation & Routing
+## :blue_book: HERE Navigation & Routing
 
 TBD
 
-### Bosch Asset Tracing Solution
+## :blue_book: Bosch Asset Tracing Solution
 
 TBD
 
-### RefineMysite & TrackMyTools
+## :blue_book: RefineMysite & TrackMyTools
 
 TBD
 
-### Bosch IoT Suite
+## :blue_book: Bosch IoT Suite
 
 TBD
 
 http://ec2-54-93-194-192.eu-central-1.compute.amazonaws.com/bc/x/devices
 
-### Microsoft Azure
+## :blue_book: Microsoft Azure
 
 TBD
 
-### InnoHub
+## :blue_book: InnoHub
 
 TBD
 
-### Bosch Securities Cameras
+## :blue_book: Bosch Securities Cameras
 
 TBD
 
-### SAST
+## :blue_book: SAST
 
 TBD
 
-### Bosch Connected Devices and Solutions
+## :blue_book: Bosch Connected Devices and Solutions
 
 TBD
 
-### Zumtobel 
+## :blue_book: Zumtobel 
 
 TBD
 
-### Bosch B/S/H/ Home Connect
+## :blue_book: Bosch B/S/H/ Home Connect
 
 TBD
 
-### Bosch B/S/H/ PAI
+## :blue_book: Bosch B/S/H/ PAI
 
 TBD
 
-### Bosch Common Gateway
+## :blue_book: Bosch Common Gateway
 
 TBD
 
-### Bosch IIOT Gateway
+## :blue_book: Bosch IIOT Gateway
 
 TBD
 
-### Bosch Thermo-technology EasyControl
+## :blue_book: Bosch Thermo-technology EasyControl
 
 TBD
