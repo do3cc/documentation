@@ -37,7 +37,8 @@ Connected Building is a cloud based collection of services to implement use-case
 
 ![Connected Building Overview](assets/connectedbuilding_overview.png)
 
-**Credentials**
+### Credentials
+
 If you want to use the Connected Building REST API or the cockpit you require:
 
  - [Bosch ID](https://myaccount.bosch.com/BeaPUssWeb/registration)
@@ -45,7 +46,8 @@ If you want to use the Connected Building REST API or the cockpit you require:
 
 For the invitation to the connected building services please send a message to slack channel: `#cb-invitation`.
 
-**Credentials Data ingest**
+### Credentials Data ingest
+
 To send data to the connected building a `system-id` and `token` is required. Ask the connected building for your credentials.
 
 ### Connected Building APIs
@@ -72,6 +74,8 @@ Starter | Description | Link
 
 ![HERE Navigation & Routing](assets/here_building_block.png)
 
+
+
 > - Which data is available?
 >   - Mapped Venue with:
 >     - Floor Levels
@@ -85,7 +89,7 @@ Starter | Description | Link
 >   - Android SDK
 >   - iOS SDK
 
-**Credentials**
+### HERE Credentials
 Get your credentials by signing up for free at: <https://developer.here.com/events/bcx19_buildings>
 
 ### HERE Documentation
