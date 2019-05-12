@@ -1,6 +1,6 @@
 # Building Hack Docs
 
- This is the technical [documentation](https://bcx19-buildings.github.io) for the BCX19 [#3 Hack Challenge Buildings](https://bosch-connected-world.com/hackathon/connectedbuildings/).
+ This is the technical [documentation](https://bcx19-buildings.github.io/documentation/) for the BCX19 [#3 Hack Challenge Buildings](https://bosch-connected-world.com/hackathon/connectedbuildings/).
 
 > :warning: This documentation is a living document, we gladly accept `pull request` and we will of course update the document during the BCX19.
 
