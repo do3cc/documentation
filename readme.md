@@ -138,10 +138,6 @@ More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/
 > - How to access the data?
 >   - REST APIs
 
-### RefineMysite & TrackMyTools Documentation
-
-TBD: Add link to RefineMysite & TrackMyTools documentation.
-
 <hr>
 
 ## Bosch IoT Suite
