@@ -109,7 +109,7 @@ Please find here a list of starter to get starters with HERE venues.
 Starter | Description | Link
 -- | -- | --
 **Android SDK examples** | For Android, use the git repository, download a project and start exploring. |  <https://github.com/heremaps/here-android-sdk-examples/tree/master/3d-venues-and-indoor-routing>
-**Angular Floor Plan Viewer** | Simple Angualr web-app to display the `Kühlhaus` venue as a floor plan. |  <https://github.com/bcx19-buildings/here-map-angular-starter-kit>
+**Angular Floor Plan Viewer** | Simple Angular web-app to display the `Kühlhaus` venue as a floor plan. |  <https://github.com/bcx19-buildings/here-map-angular-starter-kit>
 
 <hr>
 
