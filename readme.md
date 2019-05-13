@@ -13,6 +13,12 @@ During the hackathon we have for the buildings hack challenge our own slack chan
 
 To use the developer portal or connected building the precondition is to have a Bosch ID. Therefore register your [Bosch ID here](https://myaccount.bosch.com/BeaPUssWeb/registration)
 
+## Team template
+
+> Please provide as a team charter by EOB `13.05.`.
+
+Download the PPT version of the template [here](assets/template_team_BCX19.pptx).
+
 ## :wrench: Setup
 
 Please find here a high-level overview of the equipment and software stacks, which you might want to use in your hack. For each of this tools find bellow more details.
