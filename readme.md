@@ -17,7 +17,7 @@ To use the developer portal or connected building the precondition is to have a 
 
 > Please provide as a team charter by EOB `13.05.`.
 
-Download the PPT version of the template [here](assets/template_team_BCX19.pptx).
+Download the PPT version of the template [here](assets/template_team_BCX19.pptx?raw=true).
 
 ## :wrench: Setup
 
