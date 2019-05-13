@@ -366,6 +366,25 @@ To get access to devices and find a detailed documentation for the BCX see [Bosc
 
 For the REST API documentation see <https://cb-zumtobel-lms-command-app.azurewebsites.net/documentation/swagger/swagger-ui.html>
 
+### Examples
+
+#### Turn on the light
+
+```
+curl -X POST http://100.100.200.51:2222/rest/api/v1/devices/5acc063b-e3df-43f0-903b-7b9450e9c4c2/lightingcapability/setintensity/100/1500
+```
+
+#### Is it loud in it here ([jq](https://stedolan.github.io/jq/) is for massaging json)
+
+```
+for index in 1 2 3 4 5
+do
+  curl -s -X GET http://100.100.200.5${index}:2222/rest/api/v1/devices | jq '.[] | select(.type=="SENSOR") | select(.subType=="com.zumtobel.driver.litenet.article.LmGenericAvgNoiseSensor")| {noise: .noiseCapability.noise}'
+  sleep 3
+done
+```
+
+TODO: Remove any mention of [THAT](https://www.youtube.com/watch?v=DLzxrzFCyOs) incident.
 <hr>
 
 ## Bosch B/S/H/ Home Connect
