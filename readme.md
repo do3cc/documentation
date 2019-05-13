@@ -138,9 +138,44 @@ More details see [Bosch Asset Tracing](https://www.bosch-mobility-solutions.com/
 
 <hr>
 
-## Bosch Power Tools RefineMysite & TrackMyTools
+## Bosch Power Tools RefineMySite & TrackMyTools
 
 ![RefineMysite & TrackMyTools](assets/pt_building_block.png)
+
+### RefineMySite
+> - Which data is available?
+>   - Construction site master data (Project planning data following LEAN Construction approach &rightarrow;
+Projects, Tasks, Topics, Comments, Day-Cards, etc.)
+>   - All application data changes as Kafka-Event-Stream
+> - How to access the data?
+>   - REST APIs
+>   - Apache Kafka
+
+**Getting Started**
+- Come to our RefineMySite hack booth and get the source code of our sample app, credentials and a cheat
+sheet for the hackathon
+
+**How can I get help with the Apache Kafka API / SDKs / Architecture?**
+- Come to our RefineMySite hack booth where we can provide help
+
+**...but I've never used Apache Kafka...**
+- Come to our RefineMySite hack booth and we give you a short introduction
+
+**...but I'm a java/kotlin/python/... developer**
+- Our sample app is written in java. Any jvm-language can be used, and we are keen to help you.
+Developers who want to use other languages are also welcome to code with us.
+
+**...but I have no idea what to code**
+
+Let's...
+- code some cool real time statistics
+- connect voice recognition devices to control our application
+- use your favorite machine learning library and train a model with our real time data from the kafka event stream
+- build some nice UI widgets
+- ...
+
+
+### TrackMyTools
 
 > - Which data is available?
 >   - Position of power tools
